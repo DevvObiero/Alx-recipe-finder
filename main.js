@@ -183,6 +183,8 @@ function displayRecipeDetails(recipe) {
     ? `<div class="source-wrapper"><a href="${recipe.strSource}" target="_blank">View Original Source</a></div>`
     : "";
 
+  
+  
   modalContent.innerHTML = `
   <h2>${recipe.strMeal}</h2>
   <img src="${recipe.strMealThumb}" alt="${recipe.strMeal}">
